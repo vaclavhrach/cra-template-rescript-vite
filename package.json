@@ -1,0 +1,21 @@
+{
+    "name": "cra-template-rescript-vite",
+    "version": "0.0.0-development",
+    "author": "Václav Hrach",
+    "license": "MIT",
+    "description": "ReScript + React + Vite template for Create React App",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vaclavhrach/cra-template-rescript-vite.git"
+    },
+    "homepage": "https://github.com/vaclavhrach/cra-template-rescript-vite",
+    "bugs": "https://github.com/vaclavhrach/cra-template-rescript-vite/issues",
+    "keywords": [
+        "react",
+        "reason-react",
+        "create-react-app",
+        "template",
+        "rescript",
+        "vite"
+    ]
+}
