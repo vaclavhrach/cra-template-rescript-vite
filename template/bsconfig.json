@@ -20,6 +20,7 @@
   "bs-dependencies": [
     "@rescript/react"
   ],
+  "refmt": 3,
   "warnings": {
     "error" : "+101"
   },

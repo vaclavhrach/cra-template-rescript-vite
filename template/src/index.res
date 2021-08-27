@@ -1,4 +1,4 @@
-%%raw("import './index.css'")
+%%raw("import './Index.css'")
 
 ReactDOM.render(
   <React.StrictMode> <App /> </React.StrictMode>,
