@@ -1,21 +1,48 @@
 {
-    "name": "cra-template-rescript-vite",
-    "version": "0.0.0-development",
-    "author": "Václav Hrach",
-    "license": "MIT",
-    "description": "ReScript + React + Vite template for Create React App",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vaclavhrach/cra-template-rescript-vite.git"
-    },
-    "homepage": "https://github.com/vaclavhrach/cra-template-rescript-vite",
-    "bugs": "https://github.com/vaclavhrach/cra-template-rescript-vite/issues",
-    "keywords": [
-        "react",
-        "reason-react",
-        "create-react-app",
-        "template",
-        "rescript",
-        "vite"
+  "name": "cra-template-rescript-vite",
+  "version": "0.0.0-development",
+  "author": "Václav Hrach",
+  "license": "MIT",
+  "description": "ReScript + .React + Vite template for Create React App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaclavhrach/cra-template-rescript-vite.git"
+  },
+  "homepage": "https://github.com/vaclavhrach/cra-template-rescript-vite",
+  "bugs": "https://github.com/vaclavhrach/cra-template-rescript-vite/issues",
+  "keywords": [
+    "react",
+    "reason-react",
+    "create-react-app",
+    "template",
+    "rescript",
+    "vite"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "release": "semantic-release",
+    "acp": "git add . && npm run commit && git push",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.4.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "verifyConditions": [
+      "@semantic-release/changelog"
+    ],
+    "prepare": [
+      "@semantic-release/changelog"
     ]
+  }
 }
