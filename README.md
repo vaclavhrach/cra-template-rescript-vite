@@ -9,18 +9,44 @@ ReScript + React + Vite template for Create React App
 
 use with npx
 
-```sh
+```shell
 npx create-react-app --template=rescript-vite my-rescript-vite-app
 ```
 
 or with yarn
 
-```sh
+```shell
 yarn create react-app --template=rescript-vite my-rescript-vite-app
 ```
+
+## Scripts
+
+```shell
+# Run app with builds and hot reload
+npm start
+
+# Build vite and rescript app
+npm run build
+
+# Run app without builds
+npm run dev 
+
+# Clear rescript lib folder 
+npm run clean
+
+# Start rescript app 
+npm run re:start
+
+# Build rescript app
+npm run re:build
+
+# Build vite
+npm run vi:build
+```
+
 
 ## Settings included
 
 - ReScript syntax (`*.res`)
-- Vite configuration
+- Vite configuration 
 - Prettier
