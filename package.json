@@ -12,6 +12,7 @@
   "bugs": "https://github.com/vaclavhrach/cra-template-rescript-vite/issues",
   "keywords": [
     "react",
+    "rescript-react",
     "create-react-app",
     "template",
     "rescript",
