@@ -25,25 +25,27 @@ yarn create react-app --template=rescript-vite my-rescript-vite-app
 # Run app with builds and hot reload
 npm start
 
+# Start rescript app with watch
+npm run start:re
+
+# Run app without builds
+npm run start:vi
+
 # Build vite and rescript app
 npm run build
 
-# Run app without builds
-npm run dev 
+# Build rescript app with dependencies
+npm run build:re
+
+# Build vite
+npm run build:vi
 
 # Clear rescript lib folder 
 npm run clean
-
-# Start rescript app 
-npm run re:start
-
-# Build rescript app
-npm run re:build
-
-# Build vite
-npm run vi:build
 ```
 
+## Tests
+This template does not include a test runner by default.
 
 ## Settings included
 
